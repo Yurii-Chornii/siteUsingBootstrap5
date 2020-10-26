@@ -1,9 +1,39 @@
-body{
-    padding-top: 40px;
+* {
+    padding: 0;
+    margin: 0;
 }
+
+body {
+    /*padding-top: 40px;*/
+}
+
 /*.carousel-item{*/
 /*    height: 600px;*/
 /*}*/
 /*.carousel-item img{*/
 /*    height: 600px;*/
 /*}*/
+
+
+#call {
+    position: fixed;
+    display: none;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 23px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+@media screen and (max-width: 768px) {
+    #call {
+        display: flex;
+    }
+}
