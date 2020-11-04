@@ -1,6 +1,6 @@
 window.onload = function () {
-    let portretPhotos = ['./images/skodaVert1.jpg', './images/polo.jpg', './images/zoe.jpg'];
-    let landscapePhotos = ['./images/skoda1.jpg', './images/skoda2.jpg', './images/skoda3.jpg'];
+    let portretPhotos = ['./images/evakuatorPortret1.jpg', './images/evakuatorPortret2.jpg', './images/evakuatorPortret3.jpg'];
+    let landscapePhotos = ['./images/evakuatorAlbum1.jpg', './images/evakuatorAlbum2.jpg', './images/evakuatorAlbum3.jpg'];
     let slider = document.getElementById('slider');
     let iterator = 0;
     setInterval(() => {

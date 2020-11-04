@@ -7,10 +7,6 @@ body {
     min-width: 250px;
     padding-top: 55px;
 }
-nav{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
 #call {
     position: fixed;
     display: flex;
@@ -30,12 +26,15 @@ nav{
     z-index: 1;
 }
 
+/*header*/
+nav{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 header {
     position: relative;
     height: 80vh;
     margin-bottom: 20px;
 }
-
 #slider {
     position: absolute;
     z-index: 2;
@@ -50,7 +49,6 @@ header {
     transition: 0.5s;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
 #headerBackBox {
     position: absolute;
     bottom: 0;
@@ -62,7 +60,6 @@ header {
     height: 80%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     color: white;
-
 }
 #headerBackBox-subtitle{
     position: absolute;
@@ -79,8 +76,6 @@ header {
 #headerBackBox-subtitle > a:hover{
     color: darkgray;
 }
-
-
 #header-text-box {
     font-family: 'Lato', sans-serif;
     position: absolute;
@@ -93,17 +88,15 @@ header {
     left: 45px;
     line-height: 90px;
 }
-
 .transparent-text {
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
-
 #towTruck{
     position: absolute;
-    top: 0px;
+    top: 0;
     z-index: 10;
     width: 70px;
     left: calc(50% - 35px);
@@ -111,10 +104,22 @@ header {
 #towTruck img{
     width: 100%;
 }
+/*header*/
 
+/*main*/
 main{
     margin-top: 80px;
+    box-sizing: border-box;
 }
+#aboutUsImgBox{
+
+}
+/*main*/
+
+
+
+
+/*footer*/
 .footer-contacts-box{
     padding-bottom: 30px;
     color: white;
@@ -153,7 +158,7 @@ main{
     width: 100%;
     padding: 0 15%;
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0;
 }
 .contacts-row a{
     text-decoration: none;
@@ -170,18 +175,18 @@ main{
     color: darkgray;
     transform: rotate(-90deg);
 }
+/*footer*/
+
 
 
 @media screen and (max-width: 550px) {
     #slider {
         background-image: url("./images/skodaVert1.jpg");
     }
-
     header {
         position: relative;
         height: 70vh;
     }
-
     #header-text-box {
         bottom: 70px;
         font-size: 50px;
@@ -204,7 +209,6 @@ main{
         opacity: 1;
     }
 }
-
 @media screen and (min-width: 1080px) {
     #header-text-box {
         bottom: 100px;
