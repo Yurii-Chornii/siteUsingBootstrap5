@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
-* {
+*{
     padding: 0;
     margin: 0;
 }
-
 body {
     min-width: 250px;
     padding-top: 55px;
@@ -26,6 +25,9 @@ nav{
     text-decoration: none;
     font-size: 23px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    opacity: 0.8;
+    transition: 0.4s;
+    z-index: 1;
 }
 
 header {
@@ -92,11 +94,65 @@ header {
 #towTruck img{
     width: 100%;
 }
-/*@media screen and (max-width: 768px) {*/
-/*    #call {*/
-/*        display: flex;*/
-/*    }*/
-/*}*/
+
+main{
+    margin-top: 80px;
+}
+.footer-contacts-box{
+    padding-bottom: 30px;
+    color: white;
+}
+#contacts{
+    background-color: #454545;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 3;
+}
+.footer-line{
+    width: 70%;
+    margin: auto;
+    height: 1px;
+    background-color: white;
+}
+.copyright{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.copyright p{
+    margin: 0;
+}
+.contacts-header{
+    padding: 0 15% 10px 15%;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contacts-row{
+    width: 100%;
+    padding: 0 15%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.contacts-row a{
+    text-decoration: none;
+    color: white;
+}
+.contacts-row a:hover{
+    color: darkgray;
+}
+#backToTop{
+    position: absolute;
+    top: 40px;
+    right: -15px;
+    text-decoration: none;
+    color: darkgray;
+    transform: rotate(-90deg);
+}
 
 
 @media screen and (max-width: 550px) {
@@ -114,6 +170,18 @@ header {
         font-size: 50px;
         left: 20px;
         line-height: 60px;
+    }
+    .contacts-header{
+        font-size: 30px;
+    }
+    .copyright{
+        font-size: 12px;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 551px) {
+    #call:hover{
+        opacity: 1;
     }
 }
 

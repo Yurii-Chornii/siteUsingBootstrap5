@@ -26,7 +26,7 @@
                     <a href="#aboutUs" class="nav-link">Про нас</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Контакти</a>
+                    <a href="#contacts" class="nav-link">Контакти</a>
                 </li>
             </ul>
         </div>
@@ -34,7 +34,9 @@
 </nav>
 <header>
     <div id="slider"></div>
-    <div id="headerBackBox"><div class="blur"></div></div>
+    <div id="headerBackBox">
+        <div class="blur"></div>
+    </div>
     <div id="header-text-box">
         <span class="transparent-text">always</span><br>
         <span>ready</span><br>
@@ -42,14 +44,14 @@
     </div>
 </header>
 
-<main>
+<main id="aboutUs">
     <div class="container my-5">
         <div class="row">
             <div class="col-md-4 col-sm-12">
                 <img class="w-100" src="https://wallpaperaccess.com/full/508043.jpg" alt="">
             </div>
             <div class="col-md-8 col-sm-12 text-center">
-                <h2 class="my-3" id="aboutUs">About Us</h2>
+                <h2 class="my-3">About Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur harum molestias tempore.
                     Accusantium, ad alias amet asperiores aspernatur deleniti dicta dolores eius eligendi et id
                     inventore laborum magni minima mollitia necessitatibus nesciunt nisi nobis nulla odio placeat
@@ -125,7 +127,7 @@
 
 
 <!--call button-->
-<a href="tel:0633686777" id="call" class="bg-dark"><i class="fas fa-phone-alt"></i></a>
+<a href="tel:0633686777" id="call" class="bg-info"><i class="fas fa-phone-alt"></i></a>
 
 <!--call button-->
 <!--tow truck-->
@@ -133,6 +135,26 @@
     <img src="./images/towTruck.png" alt="tow truck">
 </div>
 <!--tow truck-->
+
+<footer id="contacts">
+    <div class="footer-contacts-box">
+        <div class="contacts-header">Contacts</div>
+        <div class="row contacts-row">
+            <div class="col-12 col-md-6 col-xl-3"><i class="fas fa-phone-alt"></i><a href="tel:0633686777"> 0633686777</a></div>
+            <div class="col-12 col-md-6 col-xl-3"><i class="fas fa-phone-alt"></i><a href="tel:0682790990"> 0682790990</a></div>
+            <div class="col-12 col-md-6 col-xl-3"><i class="fas fa-envelope"></i> egork1131@gmail.com</div>
+            <div class="col-12 col-md-6 col-xl-3"><i class="fas fa-map-marker-alt"></i>  м.Львів, вул.Городоцька, 300</div>
+        </div>
+    </div>
+    <div class="footer-line-box">
+        <div class="footer-line"></div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2020, Yurii Chornii.</p>
+        <p>All Rights Reserved.</p>
+    </div>
+    <a href="#slider" id="backToTop">Back to top</a>
+</footer>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
         integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
