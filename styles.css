@@ -61,8 +61,25 @@ header {
     width: 80%;
     height: 80%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
 
 }
+#headerBackBox-subtitle{
+    position: absolute;
+    bottom: 5px;
+    font-size: 13px;
+    left: 45px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+#headerBackBox-subtitle > a{
+    text-decoration: white;
+    color: white;
+}
+#headerBackBox-subtitle > a:hover{
+    color: darkgray;
+}
+
 
 #header-text-box {
     font-family: 'Lato', sans-serif;
@@ -171,6 +188,9 @@ main{
         left: 20px;
         line-height: 60px;
     }
+    #headerBackBox-subtitle{
+        left: 20px;
+    }
     .contacts-header{
         font-size: 30px;
     }
@@ -191,5 +211,8 @@ main{
         left: 90px;
         line-height: 100px;
         font-size: 90px;
+    }
+    #headerBackBox-subtitle{
+        left: 90px;
     }
 }
