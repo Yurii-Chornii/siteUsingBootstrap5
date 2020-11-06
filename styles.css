@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     min-width: 250px;
-    padding-top: 55px;
+
 }
+
 #call {
     position: fixed;
     display: flex;
@@ -27,14 +30,17 @@ body {
 }
 
 /*header*/
-nav{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+nav {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
 header {
     position: relative;
     height: 80vh;
     margin-bottom: 20px;
+    margin-top: 55px;
 }
+
 #slider {
     position: absolute;
     z-index: 2;
@@ -42,13 +48,14 @@ header {
     width: 80%;
     height: 90%;
     background-color: dimgray;
-    background-image: url("./images/skoda1.jpg");
+    background-image: url("./images/evakuatorAlbum1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.5s;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
 #headerBackBox {
     position: absolute;
     bottom: 0;
@@ -58,10 +65,11 @@ header {
     background-size: cover;
     width: 80%;
     height: 80%;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     color: white;
 }
-#headerBackBox-subtitle{
+
+#headerBackBox-subtitle {
     position: absolute;
     bottom: 5px;
     font-size: 13px;
@@ -69,13 +77,16 @@ header {
     font-weight: normal;
     letter-spacing: 1px;
 }
-#headerBackBox-subtitle > a{
+
+#headerBackBox-subtitle > a {
     text-decoration: white;
     color: white;
 }
-#headerBackBox-subtitle > a:hover{
+
+#headerBackBox-subtitle > a:hover {
     color: darkgray;
 }
+
 #header-text-box {
     font-family: 'Lato', sans-serif;
     position: absolute;
@@ -88,55 +99,122 @@ header {
     left: 45px;
     line-height: 90px;
 }
+
 .transparent-text {
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
-#towTruck{
+
+#towTruck {
     position: absolute;
-    top: 0;
+    top: -30px;
     z-index: 10;
     width: 70px;
     left: calc(50% - 35px);
 }
-#towTruck img{
+
+#towTruck img {
     width: 100%;
 }
+
 /*header*/
 
 /*main*/
-main{
+main {
     margin-top: 80px;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
-#aboutUsImgBox{
 
+#aboutUsImgBox {
+    background-image: url("./images/road.jpg");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-bottom: 25px;
 }
+
+#aboutUsTextBox {
+    text-align: center;
+}
+
+#aboutUsTextBox h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+#aboutUsTextBox p {
+    letter-spacing: 1px;
+}
+
+.ourAdvantages {
+    margin: 20px 0px;
+    min-height: 30vh;
+    box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.ourAdvantages > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.advantages-item {
+    flex-basis: 100%;
+    height: 80%;
+}
+.advantages-item > div{
+    height: 100%;
+}
+.advantages-item > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border-right {
+    border-right: 1px solid gray;
+}
+.border-left {
+    border-left: 1px solid gray;
+}
+.ourAdvantages i {
+    font-size: 55px;
+}
+.ourAdvantages i > sub{
+    font-size: 20px;
+}
+
 /*main*/
 
 
-
-
 /*footer*/
-.footer-contacts-box{
+.footer-contacts-box {
     padding-bottom: 30px;
     color: white;
 }
-#contacts{
+
+#contacts {
     background-color: #454545;
     box-sizing: border-box;
     position: relative;
     z-index: 3;
 }
-.footer-line{
+
+.footer-line {
     width: 70%;
     margin: auto;
     height: 1px;
     background-color: white;
 }
-.copyright{
+
+.copyright {
     height: 70px;
     display: flex;
     flex-direction: column;
@@ -144,30 +222,36 @@ main{
     justify-content: center;
     font-size: 14px;
 }
-.copyright p{
+
+.copyright p {
     margin: 0;
 }
-.contacts-header{
+
+.contacts-header {
     padding: 0 15% 10px 15%;
     font-family: 'Lato', sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
 }
-.contacts-row{
+
+.contacts-row {
     width: 100%;
     padding: 0 15%;
     box-sizing: border-box;
     margin: 0;
 }
-.contacts-row a{
+
+.contacts-row a {
     text-decoration: none;
     color: white;
 }
-.contacts-row a:hover{
+
+.contacts-row a:hover {
     color: darkgray;
 }
-#backToTop{
+
+#backToTop {
     position: absolute;
     top: 40px;
     right: -15px;
@@ -175,40 +259,63 @@ main{
     color: darkgray;
     transform: rotate(-90deg);
 }
-/*footer*/
 
+/*footer*/
 
 
 @media screen and (max-width: 550px) {
     #slider {
-        background-image: url("./images/skodaVert1.jpg");
+        background-image: url("./images/evakuatorPortret1.jpg");
     }
+
     header {
         position: relative;
         height: 70vh;
     }
+
     #header-text-box {
         bottom: 70px;
         font-size: 50px;
         left: 20px;
         line-height: 60px;
     }
-    #headerBackBox-subtitle{
+
+    #headerBackBox-subtitle {
         left: 20px;
     }
-    .contacts-header{
+
+    .contacts-header, #aboutUsTextBox h3 {
         font-size: 30px;
     }
-    .copyright{
+
+    .copyright {
         font-size: 12px;
         height: 50px;
     }
+
+    #aboutUsImgBox {
+        height: 30vh;
+        background-position: right;
+    }
+
+    #aboutUsTextBox h3 {
+        margin-bottom: 10px;
+    }
+    .ourAdvantages i {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .ourAdvantages i > sub{
+        font-size: 14px;
+    }
 }
+
 @media screen and (min-width: 551px) {
-    #call:hover{
+    #call:hover {
         opacity: 1;
     }
 }
+
 @media screen and (min-width: 1080px) {
     #header-text-box {
         bottom: 100px;
@@ -216,7 +323,8 @@ main{
         line-height: 100px;
         font-size: 90px;
     }
-    #headerBackBox-subtitle{
+
+    #headerBackBox-subtitle {
         left: 90px;
     }
 }

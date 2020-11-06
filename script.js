@@ -15,7 +15,7 @@ window.onload = function () {
         if (iterator === 3) {
             iterator = 0;
         }
-    }, 3000);
+    }, 4000);
 
 
 }
