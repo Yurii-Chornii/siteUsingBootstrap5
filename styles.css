@@ -72,9 +72,9 @@ header {
 #headerBackBox-subtitle {
     position: absolute;
     bottom: 5px;
-    font-size: 13px;
+    font-size: 15px;
     left: 45px;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -155,7 +155,7 @@ main {
 }
 
 .ourAdvantages {
-    margin: 20px 0px;
+    margin: 20px 0;
     min-height: 30vh;
     box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -254,10 +254,11 @@ main {
 #backToTop {
     position: absolute;
     top: 40px;
-    right: -15px;
+    right: 0;
     text-decoration: none;
     color: darkgray;
     transform: rotate(-90deg);
+    letter-spacing: 1px;
 }
 
 /*footer*/
@@ -265,7 +266,7 @@ main {
 
 @media screen and (max-width: 550px) {
     #slider {
-        background-image: url("./images/evakuatorPortret1.jpg");
+        background-image: url("./images/evakuatorPortret2.jpg");
     }
 
     header {
@@ -275,13 +276,14 @@ main {
 
     #header-text-box {
         bottom: 70px;
-        font-size: 50px;
+        font-size: 40px;
         left: 20px;
         line-height: 60px;
     }
 
     #headerBackBox-subtitle {
         left: 20px;
+        font-size: 13px;
     }
 
     .contacts-header, #aboutUsTextBox h3 {
