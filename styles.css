@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
-
 * {
     padding: 0;
     margin: 0;
 }
-
 body {
     min-width: 250px;
 
 }
-
 #call {
     position: fixed;
     display: flex;
@@ -28,19 +25,16 @@ body {
     transition: 0.4s;
     z-index: 1;
 }
-
 /*header*/
 nav {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-
 header {
     position: relative;
     height: 80vh;
     margin-bottom: 20px;
     margin-top: 55px;
 }
-
 #slider {
     position: absolute;
     z-index: 2;
@@ -48,14 +42,13 @@ header {
     width: 80%;
     height: 90%;
     background-color: dimgray;
-    background-image: url("./images/evakuatorAlbum1.jpg");
+    background-image: url("./images/evakGor3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.5s;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-
 #headerBackBox {
     position: absolute;
     bottom: 0;
@@ -68,7 +61,6 @@ header {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     color: white;
 }
-
 #headerBackBox-subtitle {
     position: absolute;
     bottom: 5px;
@@ -77,16 +69,13 @@ header {
     font-weight: bold;
     letter-spacing: 1px;
 }
-
 #headerBackBox-subtitle > a {
     text-decoration: white;
     color: white;
 }
-
 #headerBackBox-subtitle > a:hover {
     color: darkgray;
 }
-
 #header-text-box {
     font-family: 'Lato', sans-serif;
     position: absolute;
@@ -99,14 +88,12 @@ header {
     left: 45px;
     line-height: 90px;
 }
-
 .transparent-text {
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
-
 #towTruck {
     position: absolute;
     top: -30px;
@@ -114,20 +101,16 @@ header {
     width: 70px;
     left: calc(50% - 35px);
 }
-
 #towTruck img {
     width: 100%;
 }
-
 /*header*/
-
 /*main*/
 main {
     margin-top: 80px;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-
 #aboutUsImgBox {
     background-image: url("./images/road.jpg");
     height: 60vh;
@@ -138,28 +121,23 @@ main {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     margin-bottom: 25px;
 }
-
 #aboutUsTextBox {
     text-align: center;
 }
-
 #aboutUsTextBox h3 {
     font-size: 40px;
     font-weight: bolder;
     text-transform: uppercase;
     margin-bottom: 35px;
 }
-
 #aboutUsTextBox p {
     letter-spacing: 1px;
 }
-
 .ourAdvantages {
     margin: 20px 0;
     min-height: 30vh;
     box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
 .ourAdvantages > div {
     display: flex;
     justify-content: center;
@@ -170,10 +148,10 @@ main {
     flex-basis: 100%;
     height: 80%;
 }
-.advantages-item > div{
+.advantages-item > div {
     height: 100%;
 }
-.advantages-item > div > div{
+.advantages-item > div > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,33 +165,51 @@ main {
 .ourAdvantages i {
     font-size: 55px;
 }
-.ourAdvantages i > sub{
+.ourAdvantages i > sub {
     font-size: 20px;
 }
-
+#price {
+    margin: 60px 0;
+    padding: 0 15% 10px 15%;
+}
+#price h5 {
+    font-weight: 500;
+}
+.price-header {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.price-item {
+    color: #454545;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 10px;
+}
+#specialOffer span {
+    text-decoration: underline;
+}
 /*main*/
-
-
 /*footer*/
 .footer-contacts-box {
     padding-bottom: 30px;
     color: white;
 }
-
 #contacts {
     background-color: #454545;
     box-sizing: border-box;
     position: relative;
     z-index: 3;
+    box-shadow: 0 5px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
 .footer-line {
     width: 70%;
     margin: auto;
     height: 1px;
     background-color: white;
 }
-
 .copyright {
     height: 70px;
     display: flex;
@@ -222,11 +218,9 @@ main {
     justify-content: center;
     font-size: 14px;
 }
-
 .copyright p {
     margin: 0;
 }
-
 .contacts-header {
     padding: 0 15% 10px 15%;
     font-family: 'Lato', sans-serif;
@@ -234,23 +228,19 @@ main {
     font-weight: bold;
     text-transform: uppercase;
 }
-
 .contacts-row {
     width: 100%;
     padding: 0 15%;
     box-sizing: border-box;
     margin: 0;
 }
-
 .contacts-row a {
     text-decoration: none;
     color: white;
 }
-
 .contacts-row a:hover {
     color: darkgray;
 }
-
 #backToTop {
     position: absolute;
     top: 40px;
@@ -260,46 +250,36 @@ main {
     transform: rotate(-90deg);
     letter-spacing: 1px;
 }
-
 /*footer*/
-
-
 @media screen and (max-width: 550px) {
     #slider {
         background-image: url("./images/evakuatorPortret2.jpg");
     }
-
     header {
         position: relative;
         height: 70vh;
     }
-
     #header-text-box {
         bottom: 70px;
         font-size: 40px;
         left: 20px;
         line-height: 60px;
     }
-
     #headerBackBox-subtitle {
         left: 20px;
         font-size: 13px;
     }
-
-    .contacts-header, #aboutUsTextBox h3 {
+    .contacts-header, .price-header, #aboutUsTextBox h3 {
         font-size: 30px;
     }
-
     .copyright {
         font-size: 12px;
         height: 50px;
     }
-
     #aboutUsImgBox {
         height: 30vh;
         background-position: right;
     }
-
     #aboutUsTextBox h3 {
         margin-bottom: 10px;
     }
@@ -307,17 +287,18 @@ main {
         font-size: 30px;
         line-height: 20px;
     }
-    .ourAdvantages i > sub{
+    .ourAdvantages i > sub {
         font-size: 14px;
     }
+    #price {
+        padding: 0 5% 10px 5%;
+    }
 }
-
 @media screen and (min-width: 551px) {
     #call:hover {
         opacity: 1;
     }
 }
-
 @media screen and (min-width: 1080px) {
     #header-text-box {
         bottom: 100px;
@@ -325,7 +306,6 @@ main {
         line-height: 100px;
         font-size: 90px;
     }
-
     #headerBackBox-subtitle {
         left: 90px;
     }
