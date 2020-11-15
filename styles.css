@@ -7,6 +7,10 @@ body {
     min-width: 250px;
 
 }
+.anchor{
+    position: relative;
+    top: -200px;
+}
 #call {
     position: fixed;
     display: flex;
@@ -188,9 +192,6 @@ main {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     padding: 10px;
 }
-#specialOffer span {
-    text-decoration: underline;
-}
 /*main*/
 /*footer*/
 .footer-contacts-box {
@@ -254,6 +255,9 @@ main {
 @media screen and (max-width: 550px) {
     #slider {
         background-image: url("./images/evakuatorPortret2.jpg");
+    }
+    .anchor{
+        top: -265px;
     }
     header {
         position: relative;
